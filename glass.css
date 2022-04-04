@@ -1,0 +1,19 @@
+.glass {
+    margin: 1rem;
+    box-shadow: 0 1rem 2rem rgba(0,0,0,0.3);
+    width: 400px;
+    height: 200px;
+    border-radius: 1rem;
+    
+    -webkit-backdrop-filter: blur(10px) saturate(180%);
+    backdrop-filter: blur(10px) saturate(180%);
+    background-color: rgba(0,0,0,0.3);
+}
+
+.text-glass {
+    font-family: "Roboto", "Ubuntu", "Helvetica Neue", sans-serif;
+    font-size: 2rem;
+    font-weight: bold;
+    color: rgba(255,255,255,0.7);
+    padding: 6em;
+}
